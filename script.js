@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Mobile menu toggle
     const navbar = document.querySelector('nav');
     const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+    
     const navItems = document.querySelector('.nav-items');
 
     if (mobileMenuToggle) {
@@ -68,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const cards = document.querySelectorAll('.card, .skill-card, .gallery-item');
     cards.forEach(card => {
         card.addEventListener('mouseenter', function() {
-            this.style.transform = 'translateY(-10px)';
+            this.style.transform = 'translateY(-11px)';
         });
         
         card.addEventListener('mouseleave', function() {
