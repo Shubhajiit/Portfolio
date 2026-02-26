@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubhajit Basak - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">Portfolio</a>
+            
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <ul class="nav-items">
+                <li><a href="#home">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Hi, I'm <span class="hero-name">Shubhajit Basak</span></h1>
+            <p class="hero-subtitle">Web Developer | UI/UX Designer | CSE Student</p>
+            <button class="cta-button">Explore My Work</button>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p class="about-text">
+                    I'm a passionate <strong>Web Developer</strong> and <strong>UI/UX Designer</strong>
+                    with a strong foundation in computer science. I love creating clean,
+                    user-friendly interfaces and turning ideas into real, working products.
+                    Currently exploring backend logic, DSA, and generative AI to level up my skills.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h4>Portfolio Website</h4>
+                    <p>A modern, responsive portfolio built with HTML, CSS, and JavaScript featuring clean design and smooth animations.</p>
+                </div>
+                <div class="card">
+                    <h4>Task Manager App</h4>
+                    <p>Organize your daily tasks efficiently with a clean UI and local storage functionality for persistent data.</p>
+                </div>
+                <div class="card">
+                    <h4>Weather Dashboard</h4>
+                    <p>Real-time weather updates using OpenWeatherMap API with interactive charts and location-based forecasts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h4>Programming Languages</h4>
+                    <ul class="skill-list">
+                        <li class="skill-badge">JavaScript</li>
+                        <li class="skill-badge">Python</li>
+                        <li class="skill-badge">Java</li>
+                        <li class="skill-badge">C++</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <h4>Frontend Technologies</h4>
+                    <ul class="skill-list">
+                        <li class="skill-badge">React.js</li>
+                        <li class="skill-badge">HTML5</li>
+                        <li class="skill-badge">CSS3</li>
+                        <li class="skill-badge">TypeScript</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <h4>Backend & Tools</h4>
+                    <ul class="skill-list">
+                        <li class="skill-badge">Node.js</li>
+                        <li class="skill-badge">Express.js</li>
+                        <li class="skill-badge">Git</li>
+                        <li class="skill-badge">MongoDB</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <h4>Design & DevOps</h4>
+                    <ul class="skill-list">
+                        <li class="skill-badge">Figma</li>
+                        <li class="skill-badge">Adobe XD</li>
+                        <li class="skill-badge">GitHub</li>
+                        <li class="skill-badge">VS Code</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Project Gallery</h2>
+            <div class="gallery-grid">
+                <figure class="gallery-item">
+                    <img src="https://picsum.photos/id/180/800/600" alt="Web Development Project">
+                    <figcaption>Modern Web Application</figcaption>
+                </figure>
+                <figure class="gallery-item">
+                    <img src="https://picsum.photos/id/160/800/600" alt="Mobile App Design">
+                    <figcaption>Mobile App Interface</figcaption>
+                </figure>
+                <figure class="gallery-item">
+                    <img src="https://picsum.photos/id/177/800/600" alt="Dashboard Design">
+                    <figcaption>Analytics Dashboard</figcaption>
+                </figure>
+                <figure class="gallery-item">
+                    <img src="https://picsum.photos/id/171/800/600" alt="E-commerce Platform">
+                    <figcaption>E-commerce Platform</figcaption>
+                </figure>
+                <figure class="gallery-item">
+                    <img src="https://picsum.photos/id/164/800/600" alt="Landing Page">
+                    <figcaption>Landing Page Design</figcaption>
+                </figure>
+                <figure class="gallery-item">
+                    <img src="https://picsum.photos/id/188/800/600" alt="API Documentation">
+                    <figcaption>API Documentation Site</figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <form class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">First Name</label>
+                            <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Tell me about your project..." required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <h3>Let's Connect!</h3>
+            <p>Thank you for visiting my portfolio. Feel free to reach out for collaborations, opportunities, or just to say hello!</p>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Shubhajit Basak. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
